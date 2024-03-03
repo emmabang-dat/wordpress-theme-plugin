@@ -1,0 +1,35 @@
+/*
+Theme Name: My Theme
+Theme URI: none
+Author: Emma Bang Creutzberg
+Author URI: none
+Description: A very simple WordPress theme.
+Version: 1.0
+Text Domain: my-theme
+*/
+
+body {
+  background-color: #f7f5f5;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header,
+footer {
+  background: hsl(267, 67%, 45%);
+  color: #000;
+  text-align: center;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
